@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SimpleInsurance" parallel="false" verbose="10" >
+
+    <test name="Create_Insurance">
+        <classes>
+            <class name="CreateInsurance"/>
+        </classes>
+    </test>
+</suite>
